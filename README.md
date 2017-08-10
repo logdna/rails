@@ -97,7 +97,7 @@ You can also set logger level, environment, app name this way:
 
 # API
 
-## Logdna::Ruby.new(ingestion_key, options = {})
+## Logdna::RailsLogger.new(ingestion_key, options = {})
 
 Instantiates a new instance of the class it is called on. ingestion_key is required.
 
