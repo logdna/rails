@@ -3,7 +3,7 @@
 require 'logdna'
 
 module Logdna
-    class Stone < Logdna::Ruby
+    class RailsLogger < Logdna::Ruby
         include Logdna
         attr_accessor :api_key, :opts
 
