@@ -16,8 +16,8 @@ module Logdna
         attr_accessor :api_key, :opts
 
         def initialize(api_key, opts={})
-            if(!opts["user-agent"])
-              opts["user-agent"] = "logdna-rails/#{LogDNA::VERSION}"
+            if(!opts[:"user-agent"])
+              opts[:"user-agent"] = "logdna-rails/#{LogDNA::VERSION}"
             end
             super(api_key, opts)
         end
