@@ -1,4 +1,4 @@
 .DS_Store
 *.gem
 Gemfile.lock
-package-lock.json
+.package-lock.json
