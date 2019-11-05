@@ -5,8 +5,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = 'logdna-rails'
   spec.version       = "#{LogDNA::VERSION}"
-  spec.authors       = 'Gun Woo Choi'
-  spec.email         = 'matt.choi@logdna.com'
+  spec.authors       = 'Vilya Levitskiy'
+  spec.email         = 'vilya.levitskiy@logdna.com'
 
   spec.summary       = 'LogDNA Rails Logger'
   spec.homepage      = 'https://github.com/logdna/rails'
