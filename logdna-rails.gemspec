@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "logdna", "~> 1.3.0"
+  spec.add_runtime_dependency "logdna", "~> 1.3"
 end
