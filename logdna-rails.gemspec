@@ -14,9 +14,10 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/logdna/rails"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(/(.md|.rb|.gemspec|Gemfile|LICENSE)$/) }
+  spec.files         = Dir.glob("{lib}/**/*.rb") + %w(LICENSE README.md)
   spec.bindir        = "exe"
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "logdna", "~> 1.3"
+  spec.add_development_dependency "rubocop", "~> 0.78"
 end
