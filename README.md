@@ -14,6 +14,8 @@
 * **[Contributing](#contributing)**
 * **[License](#license)**
 
+# This library is deprecated and will be removed on March 01 2020. Please use our Ruby library for Rails logging - instructions at https://github.com/logdna/ruby#rails-setup
+
 # Installation
 
 Add this line to your application's Gemfile:
@@ -75,7 +77,7 @@ Clear current metadata, level, appname, environment
     logger.clear
 
 Check current log level:
-    
+
     logger.info? => true
     logger.warn? => false
 
@@ -91,7 +93,7 @@ Hostname and app name cannot be more than 80 characters.
 # Important Notes
 
 1. This logger assumes that you pass in json formatted data
-2. This logger is a singleton (do not create mutiple instances of the logger) even though the singleton structure is not strongly enforced. 
+2. This logger is a singleton (do not create mutiple instances of the logger) even though the singleton structure is not strongly enforced.
 
 
 # API
@@ -112,7 +114,7 @@ Instantiates a new instance of the class it is called on. ingestion_key is requi
 |{ :flushtime => Log flush interval in seconds } | 0.25 seconds |
 |{ :flushbyte => Log flush upper limit in bytes } | 500000 bytes ~= 0.5 megabytes |
 
-Different log level displays log messages in different colors as well. 
+Different log level displays log messages in different colors as well.
 - ![TRACE DEBUG INFO Colors](https://placehold.it/15/515151/000000?text=+)   "Trace"  "Debug"  "Info"
 - ![WARN Color](https://placehold.it/15/ec9563/000000?text=+)   "Warn"
 - ![ERROR Fatal Colors](https://placehold.it/15/e37e7d/000000?text=+)   "Error"  "Fatal"
