@@ -14,7 +14,7 @@
 * **[Contributing](#contributing)**
 * **[License](#license)**
 
-# THIS LIBRARY WILL BE DEPRECATED ON MARCH 01 2020! PLEASE USE https://github.com/logdna/ruby
+# This library is deprecated and will be removed on March 01 2020. Please use our Ruby library for Rails logging - instructions at https://github.com/logdna/ruby#rails-setup
 
 # Installation
 
